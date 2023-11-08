@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    padding: 0 5px;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+}
+
+.player--active {
+    border: 1px solid #71fff2;
+    box-shadow: inset 2px -1px 20px 0px #71fff2;
+}
+
+.col-6 {
+    border-radius: 30px;
+
+}
+
+.dice {
+    display: block;
+    margin: 0 auto;
+}
+
+.hideDice {
+    display: none;
+}
+
+.current_active {
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+.dice-wrapper {
+    height: 80px;
+}
+
+.winner {
+
+    border: 1px solid #53ff28;
+    box-shadow: inset 2px -1px 20px 6px #53ff28;
+}
